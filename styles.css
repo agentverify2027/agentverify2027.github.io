@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  color: #0b51c5;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
+}
+
+.masthead {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.masthead h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111111;
+}
+
+.subtitle {
+  margin: 10px 0 14px;
+  font-size: 1.2rem;
+}
+
+.meta {
+  margin: 0;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  margin: 22px 0 28px;
+  padding: 10px 0;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  font-size: 1rem;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 1.7rem;
+  color: #111111;
+}
+
+h3 {
+  margin: 18px 0 10px;
+  font-size: 1.2rem;
+  color: #111111;
+}
+
+p {
+  margin: 0 0 14px;
+}
+
+ul {
+  margin: 0 0 14px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.people li,
+.committee-list li {
+  margin-bottom: 6px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1px solid #cfcfcf;
+  text-align: center;
+  font-size: 0.98rem;
+}
+
+.footer p {
+  margin: 4px 0;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 17px;
+  }
+
+  .masthead h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.08rem;
+  }
+
+  .site-nav {
+    gap: 12px;
+    font-size: 0.96rem;
+  }
+}
