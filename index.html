@@ -1,139 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AGENTVERIFY 2027</title>
-    <meta
-      name="description"
-      content="AGENTVERIFY 2027: International Workshop on Infrastructure for Trustworthy Software Agents, co-located with ICSE 2027 in Dublin, Ireland."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header class="masthead">
-        <h1>AGENTVERIFY 2027</h1>
-        <p class="subtitle">
-          International Workshop on Infrastructure for Trustworthy Software Agents
-        </p>
-        <ul class="meta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AGENTVERIFY 2027</title>
+  <meta name="description" content="AGENTVERIFY 2027: International Workshop on Infrastructure for Trustworthy Software Agents, co-located with ICSE 2027 in Dublin, Ireland." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">●</span> AGENTVERIFY 2027</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="cfp.html">Call for Papers</a>
+        <a href="#dates">Dates</a>
+        <a href="#organization">Organizers</a>
+        <a href="#pc">Program Committee</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">The International Workshop on</p>
+        <h1>Infrastructure for <span>Trustworthy</span> Software Agents</h1>
+        <p class="subtitle">Advancing the systems, methods, and shared foundations needed to evaluate, observe, reproduce, and safely deploy agentic software.</p>
+        <ul class="hero-meta">
+          <li>AGENTVERIFY 2027</li>
           <li>Co-located with ICSE 2027</li>
           <li>Dublin, Ireland</li>
-          <li>Workshop date: TBA</li>
+          <li>Workshop date: 25th April 2027</li>
         </ul>
-      </header>
+      </div>
+    </section>
 
-      <nav class="site-nav">
-        <a href="#home">Home</a>
-        <a href="cfp.html">Call for Papers</a>
-        <a href="#dates">Important Dates</a>
-        <a href="#organization">Organization</a>
-        <a href="#pc">Program Committee</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <div class="announcement"><p><strong>Submission deadlines:</strong> &nbsp; Abstracts are due October 18, 2026, and full papers are due October 23, 2026. All deadlines are Anywhere on Earth (AoE).</p></div>
 
-      <main id="home">
-        <section>
-          <h2>News</h2>
-          <ul>
-            <li>June 2026: The workshop website is online.</li>
-            <li>Submission deadlines and HotCRP details will be posted here once finalized.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>About</h2>
-          <p>
-            Large language model (LLM)-based agents are rapidly transforming software engineering.
-            Recent agents can inspect repositories, invoke tools, execute tests, edit files, search
-            documentation, interact with development environments, and generate patches. These
-            capabilities create exciting opportunities for code generation, debugging, testing,
-            program repair, code review, software maintenance, and repository-level automation.
-          </p>
-          <p>
-            At the same time, they introduce new reliability, safety, reproducibility, and
-            evaluation challenges that are not fully addressed by existing software testing, AI
-            evaluation, or benchmark methodologies. AGENTVERIFY aims to bring together researchers
-            and practitioners to define and advance the emerging research area of infrastructure for
-            trustworthy software agents.
-          </p>
-          <p>
-            The workshop focuses on the broader execution stack that shapes agent behavior,
-            including prompts, tools, skills, harnesses, sandboxes, benchmarks, telemetry, memory,
-            grading scripts, and evaluation protocols. Rather than treating agent performance as
-            solely a property of the underlying model, AGENTVERIFY emphasizes the engineering
-            infrastructure needed to evaluate, observe, debug, reproduce, and safely deploy
-            agentic systems in realistic software engineering environments.
-          </p>
-        </section>
-
-        <section id="dates">
-          <h2>Important Dates</h2>
-          <ul>
-            <li>Paper submission deadline: TBA</li>
-            <li>Notification to authors: TBA</li>
-            <li>Camera-ready deadline: TBA</li>
-            <li>Workshop date: TBA</li>
-          </ul>
-          <p>
-            The provided call-for-paper and proposal materials do not list the final dates yet.
-            This section will be updated as soon as the timeline is announced.
-          </p>
+    <div class="container content-grid">
+      <div>
+        <section id="about">
+          <h2>About AGENTVERIFY</h2>
+          <p>Large language model (LLM)-based agents are rapidly transforming software engineering. Recent agents can inspect repositories, invoke tools, execute tests, edit files, search documentation, interact with development environments, and generate patches. These capabilities create exciting opportunities for code generation, debugging, testing, program repair, code review, software maintenance, and repository-level automation.</p>
+          <p>At the same time, they introduce new reliability, safety, reproducibility, and evaluation challenges that are not fully addressed by existing software testing, AI evaluation, or benchmark methodologies. AGENTVERIFY aims to bring together researchers and practitioners to define and advance the emerging research area of infrastructure for trustworthy software agents.</p>
+          <p>The workshop focuses on the broader execution stack that shapes agent behavior, including prompts, tools, skills, harnesses, sandboxes, benchmarks, telemetry, memory, grading scripts, and evaluation protocols. Rather than treating agent performance as solely a property of the underlying model, AGENTVERIFY emphasizes the engineering infrastructure needed to evaluate, observe, debug, reproduce, and safely deploy agentic systems in realistic software engineering environments.</p>
         </section>
 
         <section id="organization">
-          <h2>Organization</h2>
-          <ul class="people">
-            <li>
-              <strong>Dr. Song Wang</strong>, York University, Canada,
-              <a href="mailto:wangsong@yorku.ca">wangsong@yorku.ca</a>
-            </li>
-            <li>
-              <strong>Dr. Gias Uddin</strong>, York University, Canada,
-              <a href="mailto:guddin@yorku.ca">guddin@yorku.ca</a>
-            </li>
-            <li>
-              <strong>Dr. Jinqiu Yang</strong>, Concordia University, Canada,
-              <a href="mailto:jinqiu.yang@concordia.ca">jinqiu.yang@concordia.ca</a>
-            </li>
-            <li>
-              <strong>Dr. Lin Shi</strong>, Beihang University, China,
-              <a href="mailto:shilin@buaa.edu.cn">shilin@buaa.edu.cn</a>
-            </li>
-            <li>
-              <strong>Dr. Nachiappan Nagappan</strong>, Meta, USA,
-              <a href="mailto:nachiappan.nagappan@gmail.com">nachiappan.nagappan@gmail.com</a>
-            </li>
+          <h2>Organizing Committee</h2>
+          <ul class="people-grid">
+            <li class="person"><img src="image/wang-song.jpg" alt="Song Wang" /><div class="person-details"><strong><a href="https://www.eecs.yorku.ca/~wangsong/">
+			Song Wang</a></strong><span>York University<br />Canada</span></div></li>
+            <li class="person"><img src="image/Gias.jpg" alt="Gias Uddin" /><div class="person-details"><strong><a href="https://giasuddin.ca/">Gias Uddin</a></strong><span>York University<br />Canada</span></div></li>
+            <li class="person"><img src="image/jinqiu-yang.jpg" alt="Jinqiu Yang" /><div class="person-details"><strong><a href="https://jinqiuyang.github.io/">Jinqiu Yang</a></strong><span>Concordia University<br />Canada</span></div></li>
+            <li class="person"><img src="image/linshi.png" alt="Lin Shi" /><div class="person-details"><strong><a href="https://linshi-website.github.io/">Lin Shi</a></strong><span>Beihang University<br />China</span></div></li>
+            <li class="person"><img src="image/nachi.jpg" alt="Nachiappan Nagappan" /><div class="person-details"><strong><a href="https://nachinagappan.github.io/">Nachiappan Nagappan</a></strong><span>Meta<br />USA</span></div></li>
           </ul>
-          <p>
-            Dr. Song Wang is the main contact person for the workshop. Dr. Gias Uddin serves as
-            the proceedings chair.
-          </p>
         </section>
 
         <section id="pc">
           <h2>Program Committee</h2>
-          <ul class="committee-list">
-           TBD
-          </ul>
+          <div class="committee-placeholder">Committee members will be announced soon.</div>
         </section>
 
         <section id="contact">
           <h2>Contact</h2>
-          <p>
-            For general workshop inquiries, please contact
-            <a href="mailto:wangsong@yorku.ca">Dr. Song Wang</a>.
-            For proceedings-related questions, please contact
-            <a href="mailto:guddin@yorku.ca">Dr. Gias Uddin</a>.
-          </p>
+          <div class="callout">For general workshop inquiries, contact <a href="mailto:wangsong@yorku.ca">Dr. Song Wang</a>. For proceedings-related questions, contact <a href="mailto:guddin@yorku.ca">Dr. Gias Uddin</a>.</div>
         </section>
-      </main>
+      </div>
 
-      <footer class="footer">
-        <p>AGENTVERIFY 2027</p>
-        <p>International Workshop on Infrastructure for Trustworthy Software Agents</p>
-      </footer>
+      <aside class="side-card" id="dates" aria-labelledby="dates-heading">
+        <h2 id="dates-heading">Important Dates</h2>
+        <ul class="date-list">
+          <li><span>Abstract deadline</span><strong>October 18, 2026</strong></li>
+           <!-- <li><span>Paper bidding</span><strong>October 18–23, 2026</strong></li> -->
+          <li><span>Paper submission deadline</span><strong>October 23, 2026</strong></li>
+         <!-- <li><span>Reviews due</span><strong>December 5, 2026</strong></li> -->
+          <!-- <li><span>Review quality check &amp; discussion</span><strong>December 5–8, 2026</strong></li> -->
+          <li><span>Final notification</span><strong>December 11, 2026</strong></li>
+          <li><span>Camera-ready deadline</span><strong>January 29, 2027</strong></li>
+        </ul>
+        <p class="note">All deadlines are Anywhere on Earth (AoE).</p>
+      </aside>
     </div>
-  </body>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><div><strong>AGENTVERIFY 2027</strong><p>Infrastructure for Trustworthy Software Agents</p></div><p>Co-located with ICSE 2027 · Dublin, Ireland</p></div></footer>
+</body>
 </html>
