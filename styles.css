@@ -47,6 +47,9 @@ a:focus-visible { outline: 3px solid rgba(83, 201, 194, .45); outline-offset: 4p
   gap: 28px;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 1.18rem;
@@ -55,7 +58,7 @@ a:focus-visible { outline: 3px solid rgba(83, 201, 194, .45); outline-offset: 4p
   white-space: nowrap;
 }
 .brand:hover { text-decoration: none; color: var(--purple-dark); }
-.brand-mark { color: var(--aqua); }
+.brand-logo { width: 32px; height: 32px; object-fit: contain; flex: 0 0 auto; }
 .site-nav { display: flex; align-items: center; gap: 25px; font-size: .88rem; font-weight: 600; }
 .site-nav a { color: #4e5970; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--purple-dark); text-decoration: none; }
